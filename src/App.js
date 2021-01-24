@@ -1,9 +1,12 @@
-import './App.css';
+import { Button }from '@material-ui/core';
+import { CssBaseline } from '@material-ui/core';
 
 function App() {
   return (
     <div>
-      KJNHBJGIUJO
+      <CssBaseline />
+      <div>Texto</div>
+      <Button variant="contained" color="primary"> Botão de teste </ Button>
     </div>
   );
 }
